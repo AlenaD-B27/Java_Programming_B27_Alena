@@ -1,0 +1,91 @@
+---------------------------------------------------------------------------------
+Create a class AmazonAccount
+
+    instance variables:
+        - userName (String)
+        - email (String)
+        - hasPrime (boolean)
+
+    constructor:
+        - initialize the fields
+
+    encapsulate AmazonAccount
+
+    methods: toString()
+
+Create a class UseAmazon
+
+    create an object of the AmazonAccount and verify the constructor, getters and setters and toString are working properly
+
+---------------------------------------------------------------------------------
+
+    create a class called Square
+
+        - data:
+
+            side
+
+        - constructor
+
+            - create a constructor that creates a Square object with the side
+
+            	call setter here
+
+        - encapsulate the Square class
+
+        	- setter condition: side must be a positive number otherwise it will not be assigned to the instance variable
+
+        - other methods methods:
+
+            - calculateArea()
+  				calculate and return the area of a Square
+
+            - calculatePerimeter()
+  				calculate and return the perimeter of a Square
+
+            - toString()
+                print the side, area, and perimeter of the Square object
+
+    Create a separate class to create and test the Square objects
+
+---------------------------------------------------------------------------------
+
+    create a class called Pizza
+
+        - data:
+
+            size (String), number of toppings
+
+        - constructor
+
+            - create a constructor that creates a Pizza object with the length and the width
+
+            	call setters here
+
+        - encapsulate the Pizza class
+
+        	- setter condition:
+        		size can only be:
+        			small, medium, or large
+
+        		number of toppings must be a positive number
+
+        - other methods methods:
+
+            - calculatePrice()
+            		calculate the price of the pizza based on:
+
+            			small base: $4
+            			medium base: $6
+            			large base: $8
+
+            			each topping adds $0.75 to the price
+
+            			calculate the total price and return the cost
+
+            - toString()
+                print the size, number of toppings, and cost of the pizza
+
+    Create a separate class to create and test the Pizza objects
+
+---------------------------------------------------------------------------------

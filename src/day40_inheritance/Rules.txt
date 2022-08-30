@@ -1,0 +1,20 @@
+Overloading                                       Overriding                                                       Hiding
+
+   - In the same class                               - In the sub class                                    - In the sub class
+   - Same Method name                                - Same Method name                                    - Same Method name
+   - Different parameters                            - Same parameters                                     - Same parameters??
+                                                     - SAME || MORE VISIBLE access modifier
+                                                        (Public => Protected => Default)
+   - return type can or can not be the same          - return type MUST be same || co-variant
+                                                     - only for instance methods                            - only for static methods
+   - Private and final methods CAN be overloaded.    - Private and final methods CAN NOT be overridden.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+Inheritance Practice
+--------------------------------------------------------
+Create a class called device:
+- attributes: brand, model, price, wireless
+- methods: toString(), useDevice()
+
+Create a class called TV:
+- attributes: brand, model, price, wireless
+- methods: toString(),
+	useDevice(): Override to print Using TV
+
+Create a class called Phone:
+- attributes: brand, model, price, wireless
+- methods: toString(),
+	useDevice(): Override to print Using Phone
+
+Create a class UseDevice
+
+	create an object of TV and Phone and verify if constructor, toString(), and useDevice() are working properly for each class
+
+	List the is a relations of all the classes
+
+--------------------------------------------------------
+
+Create a class Season
+
+	instance variables
+		- name (String)
+		- highest average temperature
+		- lowest average temperature
+
+	constructor:
+		- initialize all fields
+
+	methods:
+		- activity(), toString()
+
+		override activity in sub classes
+
+Create a class Winter
+
+	child class of Season
+
+	constructor: set values to variables
+
+	methods:
+		activity(): Print Use Fireplace
+
+Create a class Summer
+
+	child class of Season
+
+	constructor: set values to variables
+
+	methods:
+		activity(): Drink Lemonade
+
+Create a class Fall
+
+	child class of Season
+
+	constructor: set values to variables
+
+	methods:
+		activity(): Read A Book
+
+Create a class Spring
+
+	child class of Season
+
+	constructor: set values to variables
+
+	methods:
+		activity(): Go Outside
+
+Create a class CheckSeason
+
+	create an object of Winter, Summer, Fall and Spring and verify if constructor, toString(), and activity() are working properly for each class
+
+	List the is a relations of all the classes
+
+--------------------------------------------------------
+
+Create a class OlympicSport
+
+	instance variables
+		- name (String)
+		- participants (int)
+
+	constructor:
+		- initialize all fields
+
+	methods:
+		- compete(), toString()
+
+		override compete in sub classes
+
+Create a class Surfing
+
+	child class of OlympicSport
+
+	constructor: set name and participants variables
+
+	methods:
+		compete(): Print Surfing the waves
+
+Create a class Track
+
+	child class of OlympicSport
+
+	constructor: set name and participants variables
+
+	methods:
+		compete(): Print Track for running, jumping, throwing
+
+Create a class Soccer
+
+	child class of OlympicSport
+
+	constructor: set name and participants variables
+
+	methods:
+		compete(): Print Playing a soccer game
+
+----------------------------------------------------------------
+
+Create a class Lyft for ride sharing
+
+	declare a method calculateRate(miles)
+		return the cost of the ride: miles * 1.5
+
+Create a class LyftXL
+
+	child class of Lyft
+
+	declare a method calculateRate(miles)
+		return the cost of the ride: base rate of Lyft ride + 10%
+
+Create a class Lux
+
+	child class of Lyft
+
+	declare a method calculateRate(miles)
+		return the cost of the ride: base rate of Lyft ride + 20%
+
+--------------------------------------------------------

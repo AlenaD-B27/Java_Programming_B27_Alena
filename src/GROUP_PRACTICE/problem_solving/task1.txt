@@ -1,0 +1,11 @@
+Create the method called countLetters() that will take a String argument str and returns a String. Find the frequency of each character in str and return the frequency number of each character before each character (aabbb => 2a3b). Return the concatenated String with all the frequencies. Call the countLetters() method in the main method with an argument.
+
+Example:
+
+	countLetters("abracadabra");
+
+output:
+	5a2b2r1c1d
+
+
+**Make your program more dynamic by adding the Scanner.

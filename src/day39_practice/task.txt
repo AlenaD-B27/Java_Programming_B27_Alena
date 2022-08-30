@@ -1,0 +1,99 @@
+Inheritance practice
+------------------------------------------------------------------------------
+
+Create a Employee class
+
+	- create variables:
+		name, is full time, salary
+
+	- create method:
+		work()
+			Example output: prints $name is working
+
+Create a class Tester
+
+	- Tester class inherits Employee class
+
+	- create additional variables:
+		bugs found
+
+	- create method:
+		test()
+			Example output: prints Running the regression
+
+Create a class Developer
+
+	- Developer class inherits Employee class
+
+	- create additional variables:
+		features created
+
+	- create method:
+		develop()
+			Example output: prints Creating more features
+
+Create objects of all three to see which variables and methods each object has access to
+
+------------------------------------------------------------------------------
+Create an App class
+
+    - create variables:
+        name (app name), version
+
+    - create constructor to initialize the variables
+
+    - create method:
+        download()
+            Example output: prints $name is downloading version $version
+
+Create a class Instagram
+
+    - Instagram class inherits App class
+
+    - create constructor to call parent constructor and set up variables (name and version)
+
+    - create method:
+        postPicture()
+            Example output: prints Posting picture to Instagram
+
+Create a class Youtube
+
+    - Youtube class inherits App class
+
+    - create constructor to call parent constructor and set up variables (name and version)
+
+    - create method:
+        watchVideo()
+            Example output: prints Watching java tutorial
+
+---------------------------------------------------------------------------
+
+Create an DiscordUser class
+
+    - create variables:
+        role, name, id
+
+    - create constructor to initialize the variables
+
+    - create a toString() method
+
+Create a class Admin
+
+    - Admin class inherits DiscordUser class
+
+    - create constructor to call parent constructor and set up variables (role - Admin, name, id)
+
+    - create method:
+        createChannel()
+            Example output: prints Creating new discord channel
+
+Create a class Student
+
+    - Student class inherits DiscordUser class
+
+    - create constructor to call parent constructor and set up variables (role - Student, name, id)
+
+    - create method:
+        sendMessage()
+            Example output: prints Sending message to class chat
+---------------------------------------------------------------------------
