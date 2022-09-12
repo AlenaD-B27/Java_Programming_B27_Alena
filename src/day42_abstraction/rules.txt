@@ -1,0 +1,6 @@
+an abstract method can not:    - be static
+                               - be final
+                               - have private access modifier
+                               - have body
+
+an abstract method can only be created in an abstract class or in an interface
