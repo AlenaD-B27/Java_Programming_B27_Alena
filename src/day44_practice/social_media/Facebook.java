@@ -93,9 +93,10 @@ public class Facebook extends SocialMedia implements HasGroups {
 
     @Override
     public void post(Object media) {
-        System.out.println("Input the post body:");
-        media = new Post(input.nextLine());
-        posts.add((Post)media);
+//        System.out.println("Input the post body:");
+//        media = new Post(input.nextLine());
+        System.out.println(media);
+        posts.add((Post)media); // something is wrong here
     }
 
     @Override
