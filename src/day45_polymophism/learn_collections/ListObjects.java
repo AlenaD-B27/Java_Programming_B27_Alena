@@ -10,9 +10,9 @@ public class ListObjects {
 
         /*
         List :
-        allows default value
+        allows default values (null)
         allows duplicates
-        ordered
+        ordered (has indexes and get method)
          */
 
         List<Character> list1 = new ArrayList<>();
