@@ -26,15 +26,14 @@ public class Internet {
 
 
 //        for (SocialMedia eachUser : database){
-//            if(eachUser.platform.equals("Instagram")){
-//
-//              ((Instagram) eachUser).likePicture();
+//            if(eachUser instanceof Instagram){
+//                eachUser.likePicture();
 //            }
 //        }
 
 //        for (int i = 0; i < database.size(); i++){
 //            for(SocialMedia eachUser : database){
-//                if (database.get(i).fullName.equals(eachUser.fullName) && database.get(i).platform.equals("Facebook") && eachUser.equals("Instagram")){
+//                if (database.get(i).fullName.equals(eachUser.fullName) && database.get(i) instanceof Facebook && eachUser instanceof Instagram)){
 //                    System.out.println(database.get(i).username + " and " + eachUser.username + " is the same person");
 //                }
 //            }
