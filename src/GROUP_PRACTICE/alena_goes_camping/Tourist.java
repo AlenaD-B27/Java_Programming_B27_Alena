@@ -14,11 +14,11 @@ public class Tourist {
     public String[] getBelongings() {
         return belongings;
     }
-//    public void setBelongings(String[] itemsWeTake) {
-//        if (belongings.length == 3){
-//        belongings = itemsWeTake;
-//        }
-//    }
+    public void setBelongings(String[] itemsWeTake) {
+        if (belongings.length == 3){
+        belongings = itemsWeTake;
+        }
+    }
 
     @Override
     public String toString() {

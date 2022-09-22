@@ -12,14 +12,14 @@ public class Camping {
         Tourist tourist1 = new Tourist(input.next());
 
         System.out.println("input 3 items:");
-       // tourist1.setBelongings(new String [] {input.next(),input.next(),input.next()});
+        tourist1.setBelongings(new String [] {input.next(),input.next(),input.next()});
 
         System.out.println(tourist1);
 
         tourist1.setUpTent();
 
       //  tourist1.setBelongings(new String [] {"1", "2", "3", "4"});
-        System.out.println(tourist1);
+      //  System.out.println(tourist1);
 
 
 
