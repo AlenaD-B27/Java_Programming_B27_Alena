@@ -8,17 +8,17 @@ public class Tourist {
 
     public Tourist(String name) {
         this.name = name;
-        setBelongings(belongings);
+       // setBelongings(belongings);
     }
 
     public String[] getBelongings() {
         return belongings;
     }
-    public void setBelongings(String[] itemsWeTake) {
-        if (belongings.length == 3){
-        belongings = itemsWeTake;
-        }
-    }
+//    public void setBelongings(String[] itemsWeTake) {
+//        if (belongings.length == 3){
+//        belongings = itemsWeTake;
+//        }
+//    }
 
     @Override
     public String toString() {
