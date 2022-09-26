@@ -1,0 +1,10 @@
+List                     Set                 Queue
+                    DUPLICATES ALLOWED?
+yes                      no                  yes
+                INSERTION ORDER PRESERVED?
+yes                      no                  no
+                       HAS INDEXES?
+yes                      no                  no
+
+
+                        LIFO                 FIFO

@@ -11,7 +11,7 @@ public class SetObjects {
         /*
         Set:
         unordered (no indexes, no get method)
-        no duplicates (accepts them but ignores)
+        no duplicates
          */
 
         Set<String> set1 = new HashSet<>();
