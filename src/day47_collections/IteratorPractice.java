@@ -21,7 +21,7 @@ public class IteratorPractice {
         /*
         hasNext()  ---> returns boolean
         next()     ---> returns element
-        remove()
+        remove()   ---> removes the element at the current iterator position
          */
 
         System.out.println(it.hasNext()); // checks is there any element after pin
