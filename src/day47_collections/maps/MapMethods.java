@@ -19,7 +19,15 @@ public class MapMethods {
         // 6. - containsKey(KEY)
         //            and
         //    - containsValue(VALUE) ---> returns boolean;
-
+        // 7. - Map.of() works as Arrays.asList();
+        // 8. - we CAN NOT loop through a Map, but:
+        //    - keySet() method ---> returns the Set of keys,
+        //    - values() method ---> returns the Collection of values;
+        //                      The elements of Map are called entries;
+        //    - entrySet() method ---> returns the Set of entries;
+        // 9. - getKey()
+        //        and
+        //    - getValue() ---> are methods for entry only;
 
 
 
