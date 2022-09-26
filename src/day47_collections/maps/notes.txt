@@ -20,3 +20,4 @@
         // 9. - getKey()
         //        and
         //    - getValue() ---> are methods for entry only;
+        // 10.- size();
