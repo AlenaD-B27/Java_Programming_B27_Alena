@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class BuiltInExamples {
     public static void main(String[] args) {
 
-        // Predicate is a build in functional interface.
+        // Predicate<T> is a build in functional interface.
         // Predicate has a test(T t) method which returns boolean
 
         Predicate<Integer> isPrime = p -> {
@@ -39,8 +40,8 @@ public class BuiltInExamples {
 
         System.out.println("------------------------------------");
 
-        // Consume is a build in functional interface.
-        // Predicate has a accept(T t) method which returns void
+        // Consume<T> is a build in functional interface.
+        // Consume has an accept(T t) method which returns void
 
         Consumer<int []> printArray = arr -> {
             for (int i = 0; i < arr.length; i++) {
@@ -63,6 +64,37 @@ public class BuiltInExamples {
 
         words.forEach(each -> System.out.println(each.substring(0, 3))); // print first 3 chars of each word
 
+
+        System.out.println("--------------------------------------------");
+
+        // Function<T,R> is a build in functional interface. ---> R is any return type
+        // Function has an apply(T t) method which returns R.
+
+        Function<int [], List<Integer>> convertToList = (arrNums) -> {
+            List<Integer> list = new ArrayList<>();
+            for(int each : arrNums){
+                list.add(each);
+            }
+            return list;
+        };
+
+        int[] arr1 = {3,4,5,5,6,7,8};
+        List<Integer> list1 = convertToList.apply(arr1);
+
+        System.out.println(list1);
+
+        System.out.println("----------------------------------");
+
+        Function<int[], int[]> swapElements = array -> {
+
+            int temp = array[0];
+            array[0] = array[array.length - 1];
+            array[array.length - 1] = temp;
+            return array;
+
+        };
+
+        System.out.println(Arrays.toString(swapElements.apply(new int[]{4, 1, 5, 12, 5, 2, 69, 120, 249})));
 
 
     }
