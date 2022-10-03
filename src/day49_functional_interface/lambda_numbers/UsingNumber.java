@@ -35,8 +35,10 @@ public class UsingNumber {
 
         // OR
 
-        NumberInterface cube1 = (n) -> System.out.println(n*n*n);
+     // NumberInterface cube1 = (n) -> {System.out.println(n*n*n)};
+        NumberInterface cube1 = n -> System.out.println(n*n*n);
         // {} can be removed if just 1 line of expression (same as with if statement)
+        // () can be removed if just 1 parameter
 
 
 

@@ -1,0 +1,26 @@
+Generics:
+<> allow us to define any object type:
+   --->  E - element
+   --->  K - key
+   --->  V - value
+   --->  T - any type
+   --->  R - return type
+   --->  U - second argument
+
+
+   Built Functional Interface:
+
+   ... Predicate<T>
+   defines a function that takes one object as the argument
+   returns: boolean;
+   method: boolean test(T t);
+
+   ... Consumer<T>
+   defines a function that takes one object as the argument
+   return: void;
+   method: void accept(T t);
+
+   ... Function<T, R>
+   defines a function that takes one object as the argument
+   returns: one object;
+   method: R apply(T t);
