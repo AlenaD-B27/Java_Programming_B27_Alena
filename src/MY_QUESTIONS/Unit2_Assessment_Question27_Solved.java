@@ -1,6 +1,6 @@
 package MY_QUESTIONS;
 
-public class Unit2_Assessment_Question27 {
+public class Unit2_Assessment_Question27_Solved {
     public static void main(String[] args) {
 
         String [] words = {"one", "two", "three", "four"};
