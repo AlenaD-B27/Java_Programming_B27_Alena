@@ -25,17 +25,17 @@ Generics:
    returns: one object;
    method: R apply(T t);
 
-   BiPredicate<T, U>
+   ... BiPredicate<T, U>
    defines a function that takes two objects as the arguments
    returns: boolean;
    method: boolean test(T t, U u);
 
-   BiConsumer<T, U>
+   ... BiConsumer<T, U>
    defines a function that takes two objects as the arguments
    returns: void;
    method: void accept(T t, U u);
 
-   BiFunction<T, U, R>
+   ... BiFunction<T, U, R>
    defines a function that takes two objects as the arguments
    returns: an object;
    method: R apply(T t, U u);
