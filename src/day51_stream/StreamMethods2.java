@@ -49,6 +49,37 @@ public class StreamMethods2 {
         List<String> list4 = new ArrayList<>(Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"));
         System.out.println(list4.stream().map(s -> s.substring(0, 3).toUpperCase()).collect(Collectors.toList()));
 
+        System.out.println("------------------------------------------------");
+
+        List<Integer> list5 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        List<Integer> even = list5.stream().filter(p -> p % 2 == 0).collect(Collectors.toList());
+        List<Integer> odd = list5.stream().filter(p -> p % 2 != 0).collect(Collectors.toList());
+        System.out.println(even);
+        System.out.println(odd);
+
+        // how many were even?
+        System.out.println(list5.stream().filter(p -> p % 2 == 0).count());
+
+        System.out.println("------------------------------------------");
+
+        // which elements contain java
+
+        List<String> list6 = new ArrayList<>(Arrays.asList("java", "soft skills", "javascript", "JAVA", "JAVAscript", "selenium", "restassured", "cypress"));
+
+        System.out.println(list6.stream().filter(p -> p.toLowerCase().contains("java")).collect(Collectors.toList()));
+        System.out.println(list6.stream().filter(
+                p -> p
+                        .toLowerCase()
+                        .contains("java"))
+                        .count()
+        ); // ==> Java is not space sensitive, so we can make our chain to be more readable.
+
+        System.out.println("==========================");
+        list6.stream().map(s -> s.toUpperCase()).forEach(e -> System.out.print(e + " "));
+        System.out.println();
+
+
+
 
     }
 }
