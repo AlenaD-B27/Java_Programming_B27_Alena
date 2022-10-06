@@ -1,0 +1,58 @@
+Functional Interface & Lambda
+---------------------------------------------------------------------------------------
+Map Practice
+
+Create a map that has a couple data to use. The data will be a name as the key and a salary as the value
+
+Use the created map to find the following:
+
+    1.1 who has the maximum salary?
+    1.2 who has the minimum salary?
+    1.3 how many employees has the salary between 120k ~ 150K?
+    1.4 display the names of the employees who are making less than 118k?
+    1.5 increase the salary of each employee by 10K
+
+---------------------------------------------------------------------------------------
+
+Use Predicate Functional interface to:
+		1.1 Create a function that can verify if a number contains duplicate digits
+
+		1.2 Create a function that can verify if a password is a strong password. Characteristics of strong passwords are:
+		        Password must be at least have 8 characters long, and should not contain space
+		        Password should at least contain one upper case letter
+		        Password should at least contain one lower case letter
+		        Password should at least contain one special characters
+		        Password should at least contain a digit
+
+---------------------------------------------------------------------------------------
+
+Use Consumer functional interface to:
+
+		1.1	Create a function that prints the first and last element of an array
+
+		1.2 Create a function that prints the middle character/s of a String
+
+---------------------------------------------------------------------------------------
+
+Use Function functional interface to:
+		1.1 Create a function that can return the sum of digits from a string that contains number digits
+
+		1.2 Create a function that can return the reversed version of a String array
+
+---------------------------------------------------------------------------------------
+
+Extra:
+
+	For these you can either use Function or create your own Functional Interface with to handle the types <T, R> where the method parameter is List<T> and return type is R
+
+		1.1 Create a function that can return the maximum number from a list of Integer
+
+		1.2 Create a function that can return the minimum number from a list of Integer
+
+		1.3 Create a function that can return the longest String from a List of String
+
+		1.4 Create a function that can return the shortest String from a List of String
+
+		1.5 Create a function that can convert List of integer to int array
+
+		1.6 Create a function that can convert List of double to double array
