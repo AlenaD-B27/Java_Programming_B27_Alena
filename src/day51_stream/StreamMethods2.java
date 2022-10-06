@@ -78,6 +78,9 @@ public class StreamMethods2 {
         list6.stream().map(s -> s.toUpperCase()).forEach(e -> System.out.print(e + " "));
         System.out.println();
 
+        list6.stream().map(s -> s.toUpperCase()).forEach(System.out::print); // does the same thing as line 78, each element uses the method
+
+
 
 
 
