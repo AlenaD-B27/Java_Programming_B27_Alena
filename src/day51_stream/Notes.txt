@@ -8,7 +8,7 @@ Stream:
 How to get a Steam:
 
 Collections methods: -- stream() gathers the elements and then allows you to do an action;
-                        -- Arrays.stream(arr) creates a Stream from an array;
+                     -- Arrays.stream(arr) creates a Stream from an array;
 
 Stream methods:
 
