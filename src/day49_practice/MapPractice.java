@@ -1,7 +1,6 @@
-package day49_50_practice;
+package day49_practice;
 
 import java.util.*;
-import java.util.function.Consumer;
 
 public class MapPractice {
     public static void main(String[] args) {

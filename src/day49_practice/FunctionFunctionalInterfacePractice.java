@@ -1,8 +1,6 @@
-package day49_50_practice;
+package day49_practice;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.function.Function;
 
 public class FunctionFunctionalInterfacePractice {

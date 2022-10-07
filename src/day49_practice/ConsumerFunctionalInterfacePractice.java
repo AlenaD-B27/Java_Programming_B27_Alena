@@ -1,4 +1,4 @@
-package day49_50_practice;
+package day49_practice;
 
 import java.util.function.Consumer;
 
