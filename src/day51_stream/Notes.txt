@@ -1,0 +1,66 @@
+Stream:
+
+-- not a data structure;
+-- added in Java 8;
+-- acts to process data quickly using its different methods;
+-- doesn't change the data structures that is providing the data;
+
+How to get a Steam:
+
+Collections methods: -- stream() gathers the elements and then allows you to do an action;
+                        -- Arrays.stream(arr) creates a Stream from an array;
+
+Stream methods:
+
+-- distinct(): gets rid of duplicates;
+
+-- collect(): converts the Stream to a different type: List:
+      args:
+      -- Collectors.toList() --> returns elements as a List
+      ex: list.stream().distinct().collect(Collectors.toList());
+
+-- toArray(): elements are converted to the array:
+      ex: Arrays.stream(arr).distinct().toArray();
+
+-- skip(): allows to skip a certain amount of elements from the data structure:
+     -- acts a little like removing them
+     args:
+     -- int --> for how many elements will be skipped
+     ex: stream().skip(5);
+
+-- limit(): only keeps the defined number of elements:
+     args:
+     -- int --> for how many elements there will be total;
+
+-- map(): allows to change the elements based on given lambda argument:
+     args:
+     -- Function functional interface argument
+     ex: map( p -> p * 10);
+
+-- filter(): allows to filter the elements, return specific ones:
+     args:
+     -- Predicate functional interface argument
+     ex: filter( p -> p % 2 == 0);
+
+-- count(): allows you to count certain elements
+     -- commonly used with filter
+     ex: filter().count();
+
+-- forEach(): allows to iterate through the elements;
+     args: lambda;
+
+-- allMatch(): checks if all elements match the defined lambda:
+     args:
+     -- Predicate functional interface argument
+     returns: boolean;
+     ex: allMatch( p -> p % 2 == 0);
+
+-- anyMatch(): checks if one element match the defined lambda:
+     args:
+     -- Predicate functional interface argument
+     returns: boolean;
+
+-- noneMatch(): checks if no element match the defined lambda:
+     args:
+     -- Predicate functional interface argument
+     returns: boolean.
