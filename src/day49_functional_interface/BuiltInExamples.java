@@ -40,8 +40,8 @@ public class BuiltInExamples {
 
         System.out.println("------------------------------------");
 
-        // Consume<T> is a build in functional interface.
-        // Consume has an accept(T t) method which returns void
+        // Consumer<T> is a build in functional interface.
+        // Consumer has an accept(T t) method which returns void
 
         Consumer<int []> printArray = arr -> {
             for (int i = 0; i < arr.length; i++) {
