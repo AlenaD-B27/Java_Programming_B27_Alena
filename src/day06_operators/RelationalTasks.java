@@ -13,7 +13,7 @@ public class RelationalTasks {
         int speed = 60;
         int limit = 50;
         boolean isSpeeding = speed > limit;
-        System.out.println("isSpeeding = " + isSpeeding);
+     //   System.out.println("isSpeeding = " + isSpeeding);
 
         /*
         declare a number variable
@@ -21,18 +21,18 @@ public class RelationalTasks {
 
          */
 
-        double num = -1.1;
-        boolean isNegative = num < 0;
-        boolean isPositive = num > 0;
-        boolean isZero = num == 0;
+        double num = 23.90;
+        boolean isNegative = num < 0; // 23.90 < 0 --> not true ---> false
+        boolean isPositive = num > 0; // 23.90 > 0 ---> true
+        boolean isZero = num == 0; // 23.90 = 0 ----> not true ---> false
         System.out.println("isPositive = " + isPositive);
         System.out.println("isNegative = " + isNegative);
         System.out.println("isZero = " + isZero);
         
         // it is operators for PRIMITIVE (any of them) types.
 
-        System.out.println(true == true);
-        System.out.println('a' == 'A');
+//        System.out.println(true == true);
+//        System.out.println('a' == 'A');
 //        =========================================================================================
         
         /*
@@ -56,8 +56,8 @@ public class RelationalTasks {
         int c = 5;
         boolean isEven = num % 2 == 0;
         boolean isOdd = num % 2 != 0;
-        System.out.println("isEven = " + isEven);
-        System.out.println("isOdd = " + isOdd);
+//        System.out.println("isEven = " + isEven);
+//        System.out.println("isOdd = " + isOdd);
 
 
     }

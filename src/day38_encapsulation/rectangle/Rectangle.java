@@ -8,10 +8,10 @@ public class Rectangle {
         return length;
     }
 
-    public void setLength(double length) {
+    public void setLength(double length) { //obj.set(what is the new value)==> {the new value is assigned}
         this.length = length;
     }
-    public double getWidth(){
+    public double getWidth(){  // access modifier, return type/ or void, name of the method (parameters){action, if return --> keyword return and what to return ---> see the return type.
         return  width;
     }
 
