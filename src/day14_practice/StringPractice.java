@@ -73,7 +73,7 @@ Print the number of characters
         String newTask = input.nextLine();
         newTask = newTask.trim();
         System.out.println(newTask.toLowerCase());
-        //System.out.println(newTask.indexOf());
+        System.out.println(newTask.length());
 
 
 

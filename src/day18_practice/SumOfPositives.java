@@ -13,10 +13,9 @@ Scanner input = new Scanner(System.in);
         while (l >= 1){
             int inNum = input.nextInt();
             l = inNum;
-            if(l > 0) {
-                sum += l;
-            }
+            sum += l;
         }
+
         System.out.println(sum);
     }
 }

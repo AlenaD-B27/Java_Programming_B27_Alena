@@ -46,7 +46,6 @@ Challenge: Instead of just checking for "a" add another variable that can be use
         boolean is2hasChar = line2.contains(hasChar);
         boolean is3hasChar = line3.contains(hasChar);
 
-        int s;
 
 
 
